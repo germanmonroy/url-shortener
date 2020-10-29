@@ -20,8 +20,8 @@ const app = express();
 
 app.use(express.json());
 app.use(express.static("client"));
-app.use('/url', urlRouter)
+app.use("/url", urlRouter);
 
-app.listen(PORT, () =>
-  console.log(`Server listening at http://localhost:${port}`)
-);
+app.listen(PORT, () => {
+  console.log(`Server listening at http://localhost:${PORT}`);
+});

@@ -7,7 +7,7 @@ const UrlModel = mongoose.model(
       slug: {
         type: String,
         minlength: [5, "Slug does not contain enough characters (Minimum 5)."],
-        maxlength: [5, "Slug contains too many characters (Maximum 5)"],
+        maxlength: [5, "Slug contains too many characters (Maximum 5)."],
         trim: true,
         validate: {
           validator: (slug) => {
