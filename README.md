@@ -1,4 +1,4 @@
-# PERN Stack - Url Shortener
+Url Shortener
 
 ## To get started:
   1. Clone this repo locally;
