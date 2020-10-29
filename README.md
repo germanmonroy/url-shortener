@@ -8,7 +8,7 @@
 
 ## Installing Mongo using Homebrew
 
-To install Mongo:
-`brew tap mongodb/brew`
-`brew install mongodb-community`
-`brew services start mongodb-community`
+To install Mongo:<br>
+`brew tap mongodb/brew`<br>
+`brew install mongodb-community`<br>
+`brew services start mongodb-community`<br>
